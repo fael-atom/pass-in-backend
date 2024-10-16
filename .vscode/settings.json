@@ -3,5 +3,8 @@
     "**/.pyc": { "when": "$(basename).py" },
     "**/__pycache__": true,
     "**/__pytest_cache": true
-  }
+  },
+  "python.testing.pytestArgs": ["src"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
